@@ -230,10 +230,11 @@ img {
   padding-bottom: 1rem;
 }
 
+
 .home__social-icon {
+  cursor: pointer;
   margin-bottom: 2rem;
   font-size: 1.33rem;
-  cursor: pointer;
   color: var(--extra-light);
 }
 
