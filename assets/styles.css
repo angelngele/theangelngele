@@ -373,9 +373,7 @@ img {
   }
   .about-containers-2 {
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    display: grid;
+    display: grid !important;
     grid-template-columns: 1fr 1fr 1fr !important;
   }
   
