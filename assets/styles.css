@@ -4,8 +4,8 @@
 :root {
   --black-color: #000;
   --white-color: #FFF;
-  --primary-color: #a855f7;
-  --primary-color-dark: #9333ea;
+  --primary-color: #c8ebd4;
+  --primary-color-dark: #6bcf8c;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
   --text-light: #6b7280;
@@ -305,21 +305,23 @@ img {
   }
   
   .hire__me {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-dark);
     color: #ffffff;
   }
   
   .hire__me:hover {
-    background-color: var(--primary-color-dark);
+    background-color: var(--white-color);
+    color: var(--primary-color-dark);
   }
   
   .portfolio {
-    color: var(--primary-color);
+    color: var(--primary-color-dark);
+    background-color: var(--white-color);
   }
   
   .portfolio:hover {
     background-color: var(--primary-color-dark);
-    color: #ffffff;
+    color: var(--white-color);
   }
   
   .image {
@@ -570,6 +572,9 @@ img {
 .contact-info-container p a{
   color: var(--text-dark);
   font-weight: 300;
+}
+.contact-info-container p a:hover {
+  color: var(--primary-color-dark);
 }
 
 .contact-icon {
